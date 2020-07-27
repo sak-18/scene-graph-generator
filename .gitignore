@@ -1,0 +1,35 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+maskrcnn_benchmark.egg-info/
+build/
+dist/
+
+# ipython/jupyter notebooks
+#*.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# Pycharm editor settings
+.idea
+
+# vscode editor settings
+.vscode
+
+# MacOS
+.DS_Store
+
+#models
+/checkpoints/glove
+/checkpoints/pretrained_faster_rcnn/model_final.pth
+/checkpoints/upload_causal_motif_sgdet/model_0028000.pth
+
+#vg info for SGG should be downloaded
+/datasets/vg/VG-SGG-with-attri.h5
